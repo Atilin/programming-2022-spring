@@ -20,7 +20,7 @@ void subtract(double** a, int line_1, int line_2, int length, double c)
 	}
 }
 
-void swap(double* string, double* string_max)
+void swap(double* & string, double* & string_max)
 {
 	double* temp = string;
 	string = string_max;
